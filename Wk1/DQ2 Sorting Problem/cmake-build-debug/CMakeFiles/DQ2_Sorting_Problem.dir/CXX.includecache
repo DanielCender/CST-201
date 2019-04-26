@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/DQ2 Sorting Problem/main.cpp
+iostream
+-
+algorithm
+-
+

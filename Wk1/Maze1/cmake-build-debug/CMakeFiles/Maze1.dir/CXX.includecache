@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/main.cpp
+iostream
+-
+fstream
+-
+

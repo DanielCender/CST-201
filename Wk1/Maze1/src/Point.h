@@ -1,5 +1,6 @@
 //
 // Created by Daniel Cender on 2019-04-26.
+// Unused as of yet, but will be utilized in wk 2.
 //
 
 #ifndef MAZE1_POINT_H

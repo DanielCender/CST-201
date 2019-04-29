@@ -2,6 +2,13 @@
 #include <fstream>
 using namespace std;
 
+/*
+ *  Name: Maze1
+ *  Author: Daniel Cender
+ *  Date: 04/28/2019
+ *  Description: This program reads in a 2-dimensional maze from a file and then displays the maze.
+ */
+
 
 // Read from file into array
 void readFile(fstream& f) {
@@ -60,36 +67,51 @@ f >> arrXSize >> eatChar >> arrYSize >> eatChar; // Read first values
             maze[x][y] = true;
         }
 
-        for(bool x: maze){
-            for(bool cell : maze[x]) {
-                cout << cell << endl;
-            }
-
-        }
     x = 0;
     y = 0;
-        for(int i = 0; i < sizeof(maze) / sizeof(maze[0]); i++) {
-            int rowsPrinted = 0;
-            while(rowsPrinted < 3) { // Prints three rows of each
-                for (int y = 0; y < (sizeof(maze[0]) / sizeof(int)); y++) {
-                    if (startX == i && startY == y) {
+
+    for(int x = 0; x < sizeof(maze); x++) {
+        for (int y = 0; y < sizeof(maze[0]); y++) {
+            if (startX == x && startY == y) {
                         // Is the starting piece
-                        cout << (rowsPrinted == 1) ? ".S." : "...";
-                    } else if (endX == i && endY == y) {
+                        cout << "S";
+                    } else if (endX == x && endY == y) {
                         // Is the ending piece
-                        cout << (rowsPrinted == 1) ? ".F." : "..."; // Checks if this is middle row
-                    } else if (maze[i][y] == true) {
+                        cout << "F";
+                    } else if (maze[x][y] == true) {
                         // Maze wall tile
-                        cout << "XXX";
+                        cout << "X";
                     } else {
                         // Unblocked tile
-                        cout << "...";
+                        cout << ".";
                     }
-                }
-                cout << endl;
-                ++rowsPrinted;
-            }
         }
+        cout << endl;
+    }
+
+    // non functioning version of the above loop. Only prints out four columns. Should iterate over every row 3 times, printing out the complete 3x3 block indicating the wall/starting/ending/open tile.
+//        for(int i = 0; i < sizeof(maze) / sizeof(maze[0]); i++) {
+//            int rowsPrinted = 0;
+//            while(rowsPrinted < 3) { // Prints three rows of each
+//                for (int y = 0; y < (sizeof(maze[0]) / sizeof(int)); y++) {
+//                    if (startX == i && startY == y) {
+//                        // Is the starting piece
+//                        cout << (rowsPrinted == 1) ? ".S." : "...";
+//                    } else if (endX == i && endY == y) {
+//                        // Is the ending piece
+//                        cout << (rowsPrinted == 1) ? ".F." : "..."; // Checks if this is middle row
+//                    } else if (maze[i][y] == true) {
+//                        // Maze wall tile
+//                        cout << "XXX";
+//                    } else {
+//                        // Unblocked tile
+//                        cout << "...";
+//                    }
+//                }
+//                cout << endl;
+//                ++rowsPrinted;
+//            }
+//        }
 
     }
     cout << endl;

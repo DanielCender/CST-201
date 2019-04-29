@@ -5,3 +5,5 @@
 #include "Point.h"
 
 // implement constructor
+
+// Implement class member functions

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises
+# Install script for directory: /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

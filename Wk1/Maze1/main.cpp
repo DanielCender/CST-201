@@ -60,10 +60,18 @@ f >> arrXSize >> eatChar >> arrYSize >> eatChar; // Read first values
             maze[x][y] = true;
         }
 
+        for(bool x: maze){
+            for(bool cell : maze[x]) {
+                cout << cell << endl;
+            }
+
+        }
+    x = 0;
+    y = 0;
         for(int i = 0; i < sizeof(maze) / sizeof(maze[0]); i++) {
             int rowsPrinted = 0;
             while(rowsPrinted < 3) { // Prints three rows of each
-                for (int y = 0; y < sizeof(maze[0]) / sizeof(int); y++) {
+                for (int y = 0; y < (sizeof(maze[0]) / sizeof(int)); y++) {
                     if (startX == i && startY == y) {
                         // Is the starting piece
                         cout << (rowsPrinted == 1) ? ".S." : "...";

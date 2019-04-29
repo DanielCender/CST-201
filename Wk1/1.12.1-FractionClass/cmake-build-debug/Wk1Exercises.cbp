@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug"/>
+				<Option working_dir="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug"/>
+				<Option working_dir="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug"/>
+				<Option working_dir="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Wk1Exercises">
-				<Option output="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Wk1Exercises" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug"/>
+				<Option output="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Wk1Exercises" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wk1Exercises"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wk1Exercises"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Wk1Exercises/fast">
-				<Option output="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Wk1Exercises" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug"/>
+				<Option output="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Wk1Exercises" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,17 +73,17 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wk1Exercises/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wk1Exercises/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/main.cpp">
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/main.cpp">
 			<Option target="Wk1Exercises"/>
 		</Unit>
-		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/CMakeLists.txt">
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

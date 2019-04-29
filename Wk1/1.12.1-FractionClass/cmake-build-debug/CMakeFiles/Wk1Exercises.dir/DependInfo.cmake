@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/main.cpp" "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/main.cpp.o"
+  "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/main.cpp" "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

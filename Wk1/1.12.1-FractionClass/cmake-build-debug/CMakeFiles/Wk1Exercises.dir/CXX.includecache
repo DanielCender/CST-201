@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1Exercises/main.cpp
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/1.12.1-FractionClass/main.cpp
 iostream
+-
+typeinfo
+-
+string
 -
 

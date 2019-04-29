@@ -12,11 +12,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4ab42e6-452f-4cc9-a09d-0cc601a3ed0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Maze.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Maze.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Point.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Point.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/Wk1Exercises" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/Wk1Exercises" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/Wk1Exercises.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/Wk1Exercises.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.12.1-FractionClass/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1.12.1-FractionClass/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Maze1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Maze1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,16 +48,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="241">
+              <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -53,6 +74,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -70,24 +103,15 @@
         <option value="$PROJECT_DIR$/src/Point.cpp" />
         <option value="$PROJECT_DIR$/sample.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Maze1.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="498" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1269" />
-    <option name="height" value="769" />
+    <option name="x" value="339" />
+    <option name="y" value="-1156" />
+    <option name="width" value="1405" />
+    <option name="height" value="924" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -110,9 +134,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,30 +169,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556318097507</updated>
-      <workItem from="1556318101544" duration="10391000" />
+      <workItem from="1556318101544" duration="12744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10391000" />
+    <option name="totallyTimeSpent" value="12744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="498" y="-1088" width="1269" height="769" extended-state="0" />
+    <frame x="339" y="-1156" width="1405" height="924" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24938875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22450477" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.46423462" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.45781365" weight="0.26682693" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5167074" side_tool="true" visible="true" weight="0.3293944" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5260455" side_tool="true" visible="true" weight="0.39783654" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48329258" visible="true" weight="0.3293944" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47997138" weight="0.3987952" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4827586" weight="0.32932693" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4739545" visible="true" weight="0.39783654" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -185,46 +211,53 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>89</line>
+          <line>97</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>48</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>66</line>
+          <line>74</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>71</line>
+          <line>79</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>74</line>
+          <line>82</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>77</line>
+          <line>85</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>68</line>
+          <line>76</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>88</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>73</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>70</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Point.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -256,6 +289,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sample.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -263,13 +306,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>

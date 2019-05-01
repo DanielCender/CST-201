@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="PalindromeFunctions" targetName="PalindromeFunctions" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="643df961-6aab-41da-8e3e-e939cac600b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Node.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Node.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SLList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SLList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/.idea/Wk1Exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/Wk1Exercises.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/Wk1Exercises" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/Wk1Exercises.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/1.12.1-FractionClass/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/.idea/DQ2 Sorting Problem.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/DQ2_Sorting_Problem.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/DQ2_Sorting_Problem.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/DQ2_Sorting_Problem.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/DQ2_Sorting_Problem.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/DQ2_Sorting_Problem.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/DQ2_Sorting_Problem.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/DQ2_Sorting_Problem.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/DQ2_Sorting_Problem.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/DQ2_Sorting_Problem.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/DQ2_Sorting_Problem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/DQ2_Sorting_Problem.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/DQ2 Sorting Problem/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/IMG_2C2A5C280D40-1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/.idea/Maze1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/Maze1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/Maze1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/sample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/src/Maze.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/src/Maze.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/src/Point.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk1/Maze1/src/Point.h" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Node.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+                  <folding>
+                    <element signature="e#49#68#0" expanded="true" />
+                    <element signature="e#187#190#0" expanded="true" />
+                    <element signature="e#276#288#0" expanded="true" />
+                    <element signature="e#375#387#0" expanded="true" />
+                    <element signature="e#597#609#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/SLList.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#50#69#0" expanded="true" />
+                    <element signature="e#139#151#0" expanded="true" />
+                    <element signature="e#207#219#0" expanded="true" />
+                    <element signature="e#454#466#0" expanded="true" />
+                    <element signature="e#529#541#0" expanded="true" />
+                    <element signature="e#700#712#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Node.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+                  <folding>
+                    <element signature="e#175#187#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Node.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#175#187#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/SLList.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#152#164#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/src/Node.h" />
+        <option value="$PROJECT_DIR$/src/Node.cpp" />
+        <option value="$PROJECT_DIR$/src/SLList.h" />
+        <option value="$PROJECT_DIR$/src/SLList.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/PalindromeFunctions.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="-22" />
+    <option name="width" value="1440" />
+    <option name="height" value="922" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PalindromeFunctions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PalindromeFunctions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PalindromeFunctions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PalindromeFunctions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="PalindromeFunctions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PalindromeFunctions" TARGET_NAME="PalindromeFunctions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PalindromeFunctions" RUN_TARGET_NAME="PalindromeFunctions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="643df961-6aab-41da-8e3e-e939cac600b8" name="Default Changelist" comment="" />
+      <created>1556565122705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556565122705</updated>
+      <workItem from="1556565127780" duration="5396000" />
+      <workItem from="1556667658565" duration="1916000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7312000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963924" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32920793" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38915664" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32920793" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Cargo" order="3" weight="0.32972583" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32972583" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32920793" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="CMake" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32920793" />
+      <window_info anchor="bottom" id="Debug" order="9" visible="true" weight="0.38915664" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Cargo" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>70</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>68</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>26</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#49#68#0" expanded="true" />
+            <element signature="e#187#190#0" expanded="true" />
+            <element signature="e#276#288#0" expanded="true" />
+            <element signature="e#375#387#0" expanded="true" />
+            <element signature="e#597#609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#175#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SLList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#50#69#0" expanded="true" />
+            <element signature="e#139#151#0" expanded="true" />
+            <element signature="e#207#219#0" expanded="true" />
+            <element signature="e#454#466#0" expanded="true" />
+            <element signature="e#529#541#0" expanded="true" />
+            <element signature="e#700#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SLList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#152#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

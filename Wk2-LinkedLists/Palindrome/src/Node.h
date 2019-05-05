@@ -1,24 +1,27 @@
 //
-// Created by Daniel Cender on 2019-04-30.
+// Created by Daniel Cender on 2019-05-02.
 //
 #include <iostream>
-#include "Node.h"
 using namespace std;
 
-    // Tilde operator is a deconstructor signifier, note to self
-    template <typename T>
-    Node<T>::Node() {
-        next = 0; // Null pointer
-    }
+#ifndef DQ2_NODE_H
+#define DQ2_NODE_H
 
-    template <typename T>
-    Node<T>::Node(T d, Node* n) {
+
+// Basic Node class for use in a linked list
+template <typename T>
+class Node {
+public:
+    T data;
+    Node* next;
+    Node() {
+        next = 0; // Null pointer
+    };
+    Node(T d, Node* n = 0)  {
         data = d;
         next = n;
-}
-
-    template <typename T>
-    int Node<T>::length() {
+    };
+    int length()  {
         Node* n = this;
         int size;
         size = 0;
@@ -27,18 +30,14 @@ using namespace std;
             n = n->next;
         }
         return (size);
-}
-
-    template <typename T>
-    void Node<T>::print(Node* n) {
+    };
+    static void print(Node* n) {
         while(n != NULL) { // While node isn't a null pointer
             cout << n->data << " ";
             n = n->next; // Iterate to next link
         }
         cout << endl;
-}
+    };
+};
 
-
-
-
-
+#endif //DQ2_NODE_H

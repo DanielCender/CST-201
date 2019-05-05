@@ -9,38 +9,6 @@ using namespace std;
  *  Description:
  */
 
-// Basic Node class for use in a linked list
-//class Node {
-//public:
-//    char data;
-//    Node* next;
-//    Node() {
-//        next = 0; // Null pointer
-//    }
-//
-//    Node(char d, Node* n = 0) {
-//        data = d;
-//        next = n;
-//    }
-//    int length() {
-//        Node* n = this;
-//        int size;
-//        size = 0;
-//        while(n != NULL) {
-//            size++;
-//            n = n->next;
-//        }
-//        return (size);
-//    }
-//    static void print(Node* n) {
-//        while(n != NULL) { // While node isn't a null pointer
-//            cout << n->data << endl;
-//            n = n->next; // Iterate to next link
-//        }
-//    }
-//
-//};
-
 
 int main() {
     SLList<char> *list = new SLList<char>();

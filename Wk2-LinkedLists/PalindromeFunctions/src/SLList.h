@@ -13,12 +13,14 @@ public:
     ~SLList();
     bool isEmpty();
     bool isInList(T d);
-    void insertBefore(Node<T>* prev, T data);
-    void insertAfter(Node<T>* prev, T data);
+    void insertAfterNode(Node<T>* prev, T data);
+    void insert(int index, T data);
+    void push(T data); // basic array-style adder
     void addToHead(T d);
     void addToTail(T d);
+    void print();
 private:
-    SLList *head, *tail;
+    Node<T> *head, *tail;
 };
 
 

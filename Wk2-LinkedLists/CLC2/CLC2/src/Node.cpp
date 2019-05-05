@@ -8,11 +8,13 @@
 
 #include "Node.hpp"
 
-Node<typename <#qualifier#>::<#name#>::Node() {
+template <typename T>
+Node<T>::Node() {
         next = 0;
     }
 
-Node::Node(Type d, Node<Type> *n = 0) {
+template <typename T>
+Node<T>::Node(T d, Node<T> *n) {
     this->data = d;
     this->next = n;
 }

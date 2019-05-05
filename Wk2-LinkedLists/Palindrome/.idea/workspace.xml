@@ -12,25 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e481d7c-746e-46eb-a0dd-51885caa5aed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DQ2/.idea/DQ2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DQ2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Node.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SLList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeFunctions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/cmake-build-debug/PalindromeFunctions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeFunctions/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/src/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeFunctions/src/Node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/src/SLList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeFunctions/src/SLList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/src/SLList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeFunctions/src/SLList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLC/cmake-build-debug/CLC" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC/cmake-build-debug/CLC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLC/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/project.xcworkspace/xcuserdata/danielcender.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/project.xcworkspace/xcuserdata/danielcender.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +37,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="300">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -62,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SLList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="554">
+              <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -74,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Node.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
+            <state relative-caret-position="105">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="e#185#197#0" expanded="true" />
@@ -99,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="-22" />
     <option name="width" value="1440" />
     <option name="height" value="922" />
@@ -167,18 +154,19 @@
       <updated>1556853271304</updated>
       <workItem from="1556853272624" duration="1865000" />
       <workItem from="1556857615026" duration="2192000" />
+      <workItem from="1557091459914" duration="818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4057000" />
+    <option name="totallyTimeSpent" value="4875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -262,7 +250,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
+        <state relative-caret-position="105">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="e#185#197#0" expanded="true" />
@@ -270,20 +258,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SLList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="300">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SLList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
         </state>
       </provider>
     </entry>

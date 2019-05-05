@@ -12,150 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c89aee20-285e-4236-9f63-8d09919086aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CLC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CLC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CLC.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLC.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLC.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLC.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLC.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLC.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLC.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLC.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLC.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLC.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/project.xcworkspace/xcuserdata/danielcender.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/xcuserdata/danielcender.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CLC2/CLC2/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/.idea/DQ2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/DQ2.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/DQ2.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/DQ2.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/DQ2.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/DQ2.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/DQ2.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/DQ2.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/DQ2.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/DQ2.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/DQ2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/DQ2.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DQ2/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/.idea/DQ2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/DQ2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/DQ2.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/src/Node.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Palindrome/src/SLList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PalindromeFunctions/cmake-build-debug/CMakeFiles/Progress/1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PalindromeFunctions/cmake-build-debug/CMakeFiles/Progress/2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PalindromeFunctions/cmake-build-debug/CMakeFiles/Progress/3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PalindromeFunctions/cmake-build-debug/CMakeFiles/Progress/4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PalindromeFunctions/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeFunctions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/cmake-build-debug/PalindromeFunctions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeFunctions/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/src/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeFunctions/src/Node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/src/SLList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeFunctions/src/SLList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeFunctions/src/SLList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeFunctions/src/SLList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/project.xcworkspace/xcuserdata/danielcender.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/project.xcworkspace/xcuserdata/danielcender.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,11 +39,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+            <state relative-caret-position="15">
+              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
               <folding>
-                <element signature="e#51#63#0" expanded="true" />
-                <element signature="e#30#42#0" expanded="true" />
+                <element signature="e#166#178#0" expanded="true" />
+                <element signature="e#341#353#0" expanded="true" />
+                <element signature="e#1253#1265#0" expanded="true" />
+                <element signature="e#1475#1487#0" expanded="true" />
+                <element signature="e#2577#2589#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,9 +75,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="-22" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -271,15 +136,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556910119170</updated>
-      <workItem from="1556910123533" duration="9063000" />
+      <workItem from="1556910123533" duration="17082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9063000" />
+    <option name="totallyTimeSpent" value="17082000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -313,18 +178,58 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>76</line>
+          <line>217</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>74</line>
+          <line>212</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>72</line>
+          <line>210</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>124</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>218</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>220</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>219</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>175</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>176</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>179</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>214</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -335,11 +240,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
           <folding>
-            <element signature="e#51#63#0" expanded="true" />
-            <element signature="e#30#42#0" expanded="true" />
+            <element signature="e#166#178#0" expanded="true" />
+            <element signature="e#341#353#0" expanded="true" />
+            <element signature="e#1253#1265#0" expanded="true" />
+            <element signature="e#1475#1487#0" expanded="true" />
+            <element signature="e#2577#2589#0" expanded="true" />
           </folding>
         </state>
       </provider>

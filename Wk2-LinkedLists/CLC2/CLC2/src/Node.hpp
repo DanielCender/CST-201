@@ -11,13 +11,13 @@
 
 #include <stdio.h>
 
-template <typename Type>
+template <typename T>
 class Node {
 public:
-    Type data;
+    T data;
     Node *next, *prev;
     Node();
-    Node(Type d, Node<Type> *n = 0);
+    Node(T d, Node<T> *n = 0);
 };
 
 #endif /* Node_hpp */

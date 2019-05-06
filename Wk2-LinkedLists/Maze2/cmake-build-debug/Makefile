@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1
+CMAKE_SOURCE_DIR = /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2/cmake-build-debug/CMakeFiles /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Maze1
+# Target rules for targets named Maze2
 
 # Build rule for target.
-Maze1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Maze1
-.PHONY : Maze1
+Maze2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Maze2
+.PHONY : Maze2
 
 # fast build rule for target.
-Maze1/fast:
-	$(MAKE) -f CMakeFiles/Maze1.dir/build.make CMakeFiles/Maze1.dir/build
-.PHONY : Maze1/fast
+Maze2/fast:
+	$(MAKE) -f CMakeFiles/Maze2.dir/build.make CMakeFiles/Maze2.dir/build
+.PHONY : Maze2/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Maze1.dir/build.make CMakeFiles/Maze1.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Maze2.dir/build.make CMakeFiles/Maze2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Maze1.dir/build.make CMakeFiles/Maze1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Maze2.dir/build.make CMakeFiles/Maze2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,62 +147,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Maze1.dir/build.make CMakeFiles/Maze1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Maze2.dir/build.make CMakeFiles/Maze2.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-src/Maze.o: src/Maze.cpp.o
-
-.PHONY : src/Maze.o
-
-# target to build an object file
-src/Maze.cpp.o:
-	$(MAKE) -f CMakeFiles/Maze1.dir/build.make CMakeFiles/Maze1.dir/src/Maze.cpp.o
-.PHONY : src/Maze.cpp.o
-
-src/Maze.i: src/Maze.cpp.i
-
-.PHONY : src/Maze.i
-
-# target to preprocess a source file
-src/Maze.cpp.i:
-	$(MAKE) -f CMakeFiles/Maze1.dir/build.make CMakeFiles/Maze1.dir/src/Maze.cpp.i
-.PHONY : src/Maze.cpp.i
-
-src/Maze.s: src/Maze.cpp.s
-
-.PHONY : src/Maze.s
-
-# target to generate assembly for a file
-src/Maze.cpp.s:
-	$(MAKE) -f CMakeFiles/Maze1.dir/build.make CMakeFiles/Maze1.dir/src/Maze.cpp.s
-.PHONY : src/Maze.cpp.s
-
-src/Point.o: src/Point.cpp.o
-
-.PHONY : src/Point.o
-
-# target to build an object file
-src/Point.cpp.o:
-	$(MAKE) -f CMakeFiles/Maze1.dir/build.make CMakeFiles/Maze1.dir/src/Point.cpp.o
-.PHONY : src/Point.cpp.o
-
-src/Point.i: src/Point.cpp.i
-
-.PHONY : src/Point.i
-
-# target to preprocess a source file
-src/Point.cpp.i:
-	$(MAKE) -f CMakeFiles/Maze1.dir/build.make CMakeFiles/Maze1.dir/src/Point.cpp.i
-.PHONY : src/Point.cpp.i
-
-src/Point.s: src/Point.cpp.s
-
-.PHONY : src/Point.s
-
-# target to generate assembly for a file
-src/Point.cpp.s:
-	$(MAKE) -f CMakeFiles/Maze1.dir/build.make CMakeFiles/Maze1.dir/src/Point.cpp.s
-.PHONY : src/Point.cpp.s
 
 # Help Target
 help:
@@ -212,16 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Maze1"
+	@echo "... Maze2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/Maze.o"
-	@echo "... src/Maze.i"
-	@echo "... src/Maze.s"
-	@echo "... src/Point.o"
-	@echo "... src/Point.i"
-	@echo "... src/Point.s"
 .PHONY : help
 
 

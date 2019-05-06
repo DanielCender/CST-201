@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1
+CMAKE_SOURCE_DIR = /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Maze1.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/Maze1.dir/flags.make
 
 CMakeFiles/Maze1.dir/main.cpp.o: CMakeFiles/Maze1.dir/flags.make
 CMakeFiles/Maze1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Maze1.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Maze1.dir/main.cpp.o -c /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Maze1.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Maze1.dir/main.cpp.o -c /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/main.cpp
 
 CMakeFiles/Maze1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Maze1.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/main.cpp > CMakeFiles/Maze1.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/main.cpp > CMakeFiles/Maze1.dir/main.cpp.i
 
 CMakeFiles/Maze1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Maze1.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/main.cpp -o CMakeFiles/Maze1.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/main.cpp -o CMakeFiles/Maze1.dir/main.cpp.s
 
 CMakeFiles/Maze1.dir/src/Point.cpp.o: CMakeFiles/Maze1.dir/flags.make
 CMakeFiles/Maze1.dir/src/Point.cpp.o: ../src/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Maze1.dir/src/Point.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Maze1.dir/src/Point.cpp.o -c /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/src/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Maze1.dir/src/Point.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Maze1.dir/src/Point.cpp.o -c /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Point.cpp
 
 CMakeFiles/Maze1.dir/src/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Maze1.dir/src/Point.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/src/Point.cpp > CMakeFiles/Maze1.dir/src/Point.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Point.cpp > CMakeFiles/Maze1.dir/src/Point.cpp.i
 
 CMakeFiles/Maze1.dir/src/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Maze1.dir/src/Point.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/src/Point.cpp -o CMakeFiles/Maze1.dir/src/Point.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Point.cpp -o CMakeFiles/Maze1.dir/src/Point.cpp.s
 
 CMakeFiles/Maze1.dir/src/Maze.cpp.o: CMakeFiles/Maze1.dir/flags.make
 CMakeFiles/Maze1.dir/src/Maze.cpp.o: ../src/Maze.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Maze1.dir/src/Maze.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Maze1.dir/src/Maze.cpp.o -c /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/src/Maze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Maze1.dir/src/Maze.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Maze1.dir/src/Maze.cpp.o -c /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Maze.cpp
 
 CMakeFiles/Maze1.dir/src/Maze.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Maze1.dir/src/Maze.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/src/Maze.cpp > CMakeFiles/Maze1.dir/src/Maze.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Maze.cpp > CMakeFiles/Maze1.dir/src/Maze.cpp.i
 
 CMakeFiles/Maze1.dir/src/Maze.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Maze1.dir/src/Maze.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/src/Maze.cpp -o CMakeFiles/Maze1.dir/src/Maze.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Maze.cpp -o CMakeFiles/Maze1.dir/src/Maze.cpp.s
 
 # Object files for target Maze1
 Maze1_OBJECTS = \
@@ -110,7 +110,7 @@ Maze1: CMakeFiles/Maze1.dir/src/Point.cpp.o
 Maze1: CMakeFiles/Maze1.dir/src/Maze.cpp.o
 Maze1: CMakeFiles/Maze1.dir/build.make
 Maze1: CMakeFiles/Maze1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Maze1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Maze1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Maze1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/Maze1.dir/clean:
 .PHONY : CMakeFiles/Maze1.dir/clean
 
 CMakeFiles/Maze1.dir/depend:
-	cd /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1 /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1 /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1 /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1 /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Maze1.dir/depend
 

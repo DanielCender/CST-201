@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/main.cpp" "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/main.cpp.o"
-  "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/src/Maze.cpp" "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/src/Maze.cpp.o"
-  "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/src/Point.cpp" "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/src/Point.cpp.o"
+  "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/main.cpp" "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/main.cpp.o"
+  "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Maze.cpp" "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/src/Maze.cpp.o"
+  "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Point.cpp" "/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/cmake-build-debug/CMakeFiles/Maze1.dir/src/Point.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

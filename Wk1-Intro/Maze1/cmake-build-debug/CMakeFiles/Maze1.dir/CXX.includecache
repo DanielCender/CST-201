@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1/Maze1/main.cpp
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/main.cpp
 iostream
 -
 fstream
 -
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Maze.cpp
+Maze.h
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Maze.h
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Maze.h
+Point.h
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Point.h
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Point.cpp
+Point.h
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Point.h
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk1-Intro/Maze1/src/Point.h
 

@@ -12,11 +12,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c89aee20-285e-4236-9f63-8d09919086aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maze2/.idea/Maze2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maze2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maze2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maze2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maze2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Palindrome/src/DLList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Palindrome/src/DNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/project.xcworkspace/xcuserdata/danielcender.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC2/CLC2.xcodeproj/project.xcworkspace/xcuserdata/danielcender.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CLC2/CLC2/src/Node.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Palindrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/DQ2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/DQ2" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/DQ2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/DQ2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/cmake-build-debug/DQ2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/src/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/src/Node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrome/src/SLList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Palindrome/src/SLList.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="222">
+              <caret line="126" column="2" lean-forward="true" selection-start-line="87" selection-end-line="126" selection-end-column="2" />
               <folding>
                 <element signature="e#166#178#0" expanded="true" />
                 <element signature="e#341#353#0" expanded="true" />
@@ -61,17 +77,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.cpp" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/CLC.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
       </list>
     </option>
   </component>
@@ -136,19 +141,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556910119170</updated>
-      <workItem from="1556910123533" duration="17082000" />
+      <workItem from="1556910123533" duration="19131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17082000" />
+    <option name="totallyTimeSpent" value="19131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -159,7 +164,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -240,8 +245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="222">
+          <caret line="126" column="2" lean-forward="true" selection-start-line="87" selection-end-line="126" selection-end-column="2" />
           <folding>
             <element signature="e#166#178#0" expanded="true" />
             <element signature="e#341#353#0" expanded="true" />

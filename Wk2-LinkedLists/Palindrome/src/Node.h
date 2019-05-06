@@ -1,6 +1,10 @@
-//
-// Created by Daniel Cender on 2019-05-02.
-//
+/*
+ *  Palindrome Functions/ Name: Node.h
+ *  Author: Daniel Cender
+ *  Date: 05/04/2019
+ *  Description: This is an implementation of a List Node.
+ */
+
 #include <iostream>
 using namespace std;
 

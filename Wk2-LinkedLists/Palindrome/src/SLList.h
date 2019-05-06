@@ -1,6 +1,9 @@
-//
-// Created by Daniel Cender on 2019-05-02.
-//
+/*
+ *  Palindrome Functions/ Name: SLList.h
+ *  Author: Daniel Cender
+ *  Date: 05/04/2019
+ *  Description: This is an implementation of a Singly Linked List.
+ */
 #include "Node.h"
 #ifndef DQ2_SLLIST_H
 #define DQ2_SLLIST_H
@@ -10,6 +13,7 @@
 template <typename T>
 class SLList {
 public:
+  Node<T> *head, *tail;
     SLList() {
         head = tail = 0;
     };
@@ -59,30 +63,28 @@ public:
     };
 
     void push(T data) {
-        Node<T> *tmp = new Node<T>(data);
-
-        tmp->next = tail;
-
-        for(; head->next != NULL; head = head->next);
-        head->next = tmp;
+      Node<T> *new_node = new Node<T>(data);
+//      if(head == 0) { // If list is empty
+//        new_node->next = tail;
+//      }
+      new_node->next = head;
+      head = new_node;
     };
 
-    // basic array-style adder
-    void addToHead(T d) ;
-    void addToTail(T d);
     void print()  {
         if(this->isEmpty()) {
             cout << "List is empty. Nothing to print here." << endl;
             return;
         }
-        for(; head->next != NULL; head = head->next) {
-            cout << head->data << " ";
+
+        Node<T> *tmp = head;
+        for(; tmp->next != NULL; tmp = tmp->next) {
+            cout << tmp->data << " ";
         }
         cout << endl;
+        delete tmp;
         return;
     };
-private:
-    Node<T> *head, *tail;
 };
 
 

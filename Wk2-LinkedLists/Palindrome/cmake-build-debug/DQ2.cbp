@@ -83,6 +83,12 @@
 		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Palindrome/main.cpp">
 			<Option target="DQ2"/>
 		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Palindrome/src/DLList.h">
+			<Option target="DQ2"/>
+		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Palindrome/src/DNode.h">
+			<Option target="DQ2"/>
+		</Unit>
 		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Palindrome/src/Node.h">
 			<Option target="DQ2"/>
 		</Unit>

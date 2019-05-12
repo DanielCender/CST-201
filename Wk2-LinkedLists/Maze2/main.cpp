@@ -32,11 +32,6 @@ void displayMaze(const Maze* maze) {
   Cell *current_row_node;
   for (; begin < end; begin++) {
     // iterating through rows currently
-
-
-    // print out col row and col number with first el
-    for (int colNum = 0; colNum < maze->cols_array.size();
-    colNum++) {
       if (begin == 0) { // Print top line of col numbers
         cout << " " << " " << " " << 0 << " ";
         for (int x = 1; x < maze->cols_array.size(); x++) {
@@ -47,7 +42,7 @@ void displayMaze(const Maze* maze) {
       // iterate over each row 3 times
       for (int i = 0; i < 3; i++) {
         current_row_node = maze->rows_array[begin]; // reset
-        if (colNum == 0 and i == 1) {
+        if (i == 1) {
           cout << begin << " ";
         } else {
           cout << " " << " ";
@@ -82,7 +77,6 @@ void displayMaze(const Maze* maze) {
           current_row_node = current_row_node->right;
         }
         cout << endl; // ending a row
-      }
       }
     }
   }

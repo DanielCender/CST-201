@@ -12,31 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6833a39-612d-4847-873d-5e07b8082b61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DQ2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze3/.idea/Maze3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze3/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze3/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/CMakeFiles/Maze2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/CMakeFiles/Maze2.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/CMakeFiles/Maze2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/CMakeFiles/Maze2.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/CMakeFiles/Maze2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/CMakeFiles/Maze2.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/Maze2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/Maze2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/Maze2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/cmake-build-debug/Maze2.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/src/Maze.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/src/Maze.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/src/Point.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk2-LinkedLists/Maze2/src/Cell.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,7 +122,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="756" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45636624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

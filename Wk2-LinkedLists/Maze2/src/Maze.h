@@ -34,6 +34,7 @@ class Maze {
     ifstream f;
     f.open(path);
     string line;
+    int col_pos, row_pos;
 
     char eatChar;
     f >> cols >> eatChar >> rows >> eatChar; // Read first values
@@ -49,27 +50,15 @@ class Maze {
     f >> eatChar >> endX >> eatChar >> endY >> eatChar >> eatChar;
     cout << "End: " << endX << " " << endY << " " << eatChar << endl;
 
-    // Instantiate linked list off of input stream
-    // Use additions to rows_array and cols_array
-
     // Reserve max space needed for maze
     rows_array.reserve(rows);
     cols_array.reserve(cols);
 
     // START ADDING ROWS
     for(int i = 0; i < rows; i++) {
-      rows_array.push_back(new Cell());
+      rows_array.push_back(new Cell(Open));
       // craft linked list off row
       Cell *instantiater = rows_array[i];
-
-//      if(i != 0) { // isn't top row
-//        instantiater->top = rows_array[i - 1];
-//        rows_array[i - 1]->bottom = instantiater;
-//      }
-//      if(rows_array[i - 1] and i != rows - 1) { // is last row
-//        rows_array[i - 1]->bottom = instantiater;
-//        instantiater->top = rows_array[i - 1];
-//      }
 
       // Build lists for columns
       for(int atCol = 0; atCol < cols; atCol++) {
@@ -104,8 +93,7 @@ class Maze {
           cols_array[atCol - 1]->right = cols_array[atCol];
         }
 
-
-        Cell *nextNode = new Cell();
+        Cell *nextNode = new Cell(Open);
         // Next and prev nodes - a left-right movement
         instantiater->next = nextNode;
         nextNode->prev = instantiater;
@@ -118,11 +106,37 @@ class Maze {
       }
 
     }
-//    if(f) {
-//      while (getline(f, line)) {
-//        cout << line << endl;
+
+    // Switch all designated blocks to Walls, not Open
+//      while(f >> eatChar >> col_pos >> eatChar >> row_pos >> eatChar >> eatChar) {
+//        if(col_pos < row_pos) { // farther left in maze, get to it from column
+//          Cell *curr = cols_array[col_pos];
+//          for(int i; i < row_pos; i++) {
+//            curr = curr->bottom;
+//          }
+//          curr->type = Wall;
+//        } else { // farther down in maze, get to it from row
+//          Cell *curr = rows_array[row_pos];
+//          for(int i; i < col_pos; i++) {
+//            curr = curr->bottom;
+//          }
+//          curr->type = Wall;
+//        }
 //      }
-//    }
+
+    while(f >> eatChar >> col_pos >> eatChar >> row_pos >> eatChar >> eatChar) {
+      Cell *curr = cols_array[col_pos];
+      for(int i = 0; i < row_pos;i++) {
+        curr = curr->bottom;
+      }
+      curr->type = Wall;
+    }
+
+
+
+      // Set beginning and end blocks
+
+
     cout << endl;
     f.close();
   }

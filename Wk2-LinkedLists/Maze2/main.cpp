@@ -84,12 +84,15 @@ void displayMaze(const Maze* maze) {
 int main() {
   int arrXSize, arrYSize;
   ifstream f;
-//    readFile(f); // Just displays file contents line per line
+//    readFile(f); // FOR DEBUGGING - Just displays file contents line per line
 
   Maze *new_maze = new Maze();
   new_maze->readFile("sample.txt");
 
   displayMaze(new_maze);
+
+  // solveMaze(new_maze); // TODO
+
 
   f.open("sample.txt");
   string line;

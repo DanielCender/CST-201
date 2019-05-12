@@ -4,64 +4,131 @@
  *  Date: 05/05/2019
  *  Description: This header implements a doubly linked list to store the maze tiles.
  */
-#include "Point.h"
+#include "Cell.h"
 #include <iostream>
+#include <fstream>
+#include <vector>
 using namespace std;
 
 #ifndef MAZE2_SRC_MAZE_H_
 #define MAZE2_SRC_MAZE_H_
 
-template <typename T>
 class Maze {
  public:
-  Point<T> *head, *tail;
-  Maze() {
-    head = tail = 0;
+  vector<Cell*> rows_array; // basic array is just too frustrating for this usage
+  vector<Cell*> cols_array;
+//  Maze() {
+//    start = finish = 0;
+//    rows = cols = 0;
+//  }
+  // Pass in rows, cols, starting cell, ending, and maze array
+  Maze(int r = 0, int c = 0, Cell *s = 0, Cell *f = 0, Cell (*maze_array) [] = 0) {
+    rows = r;
+    cols = c;
   }
   ~Maze()  {
-    for(Point<T>* p = head; !isEmpty();) {
-      p = head->next; // Moves pointer forward in list
-      delete head;
-      head = p; // Sets new head, so next ->next moves to next pointer
-    }
+    rows_array.empty(); // Remove all maze elements
+    cols_array.empty(); // Almost unnecessary
   };
-  bool isEmpty()  {
-    return head == 0;
-  };
-  // Pushes a node onto the HEAD of a list
-  void push(T d) {
-    Point<T> *new_node = new Point<T>(d);
-    new_node->next = head;
-    new_node->prev = 0;
-    if(head != NULL) {
-      head->prev = new_node;
-    }
-    head = new_node;
-  }
-  T getNth(int index) {
-    Point<T> *current = head;
-    int counter = 0;
-    while(current->next != 0) {
-      if(counter == index) {
-//        delete &counter; // stop leaks
-        return (current->data);
+  void readFile(char* path) {
+    ifstream f;
+    f.open(path);
+    string line;
+
+    char eatChar;
+    f >> cols >> eatChar >> rows >> eatChar; // Read first values
+
+    cout << "x size: " << cols << endl;
+    cout << "y size: " << rows << endl;
+
+    int start, end [2]; // Start and end tiles of maze
+    int startX, startY, endX, endY;
+    f >> eatChar >> startX >> eatChar >> startY >> eatChar >> eatChar;
+    cout << "Begin: " << startX << " " << startY << " " << eatChar << endl;
+
+    f >> eatChar >> endX >> eatChar >> endY >> eatChar >> eatChar;
+    cout << "End: " << endX << " " << endY << " " << eatChar << endl;
+
+    // Instantiate linked list off of input stream
+    // Use additions to rows_array and cols_array
+
+    // Reserve max space needed for maze
+    rows_array.reserve(rows);
+    cols_array.reserve(cols);
+
+    // START ADDING ROWS
+    for(int i = 0; i < rows; i++) {
+      rows_array.push_back(new Cell());
+      // craft linked list off row
+      Cell *instantiater = rows_array[i];
+
+//      if(i != 0) { // isn't top row
+//        instantiater->top = rows_array[i - 1];
+//        rows_array[i - 1]->bottom = instantiater;
+//      }
+//      if(rows_array[i - 1] and i != rows - 1) { // is last row
+//        rows_array[i - 1]->bottom = instantiater;
+//        instantiater->top = rows_array[i - 1];
+//      }
+
+      // Build lists for columns
+      for(int atCol = 0; atCol < cols; atCol++) {
+        Cell *topNode;
+        // START COLUMNS VECTOR
+
+        // Set top node above root
+        if(rows_array.size() > 1) { // has O(n), I know, I'll have to revisit this piece
+          topNode = rows_array[i - 1];
+          for(int gettingNode = 0; gettingNode < atCol; gettingNode++) {
+            topNode = topNode->right;
+          }
+        } else {
+          topNode = NULL;
+        }
+
+        if(i != 0) { // isn't top row
+          instantiater->top = topNode;
+          topNode->bottom = instantiater;
+        }
+//        if(rows_array[i - 1] and i != rows - 1) { // isn't last row
+//          rows_array[i - 1]->bottom = instantiater;
+//          instantiater->top = rows_array[i - 1];
+//        }
+
+         if(cols_array.size() != cols) {
+           cols_array.push_back(instantiater);
+         }
+
+        if(atCol != 0) { // isn't leftmost node
+          cols_array[atCol]->left = cols_array[atCol - 1];
+          cols_array[atCol - 1]->right = cols_array[atCol];
+        }
+
+
+        Cell *nextNode = new Cell();
+        // Next and prev nodes - a left-right movement
+        instantiater->next = nextNode;
+        nextNode->prev = instantiater;
+
+        // left and right - HANDLE THIS ABOVE
+        nextNode->left = instantiater;
+        instantiater->right = nextNode;
+
+        instantiater = instantiater->next;
       }
-      counter++;
-      current = current->next;
+
     }
+//    if(f) {
+//      while (getline(f, line)) {
+//        cout << line << endl;
+//      }
+//    }
+    cout << endl;
+    f.close();
   }
-  void insert(Point<T>* node, int index) {
-    int counter = 0;
-    Point<T> *current = head;
-    while(counter != index) {
-      current = current->next; // Get to index of list
-    }
-    node->next = current->next; // get node that is to be linked after
-    node->prev = current;
-    current->next->prev = node; // Change prev of next node to new node
-    current->next = node; // Insert node after current
-    delete current; // no leaks
-  }
+ private:
+  int rows, cols; // cols is x, rows is y
+  Cell *start, *finish;
 };
 
 #endif //MAZE2_SRC_MAZE_H_

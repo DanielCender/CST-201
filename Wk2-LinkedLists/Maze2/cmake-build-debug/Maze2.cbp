@@ -83,10 +83,10 @@
 		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2/main.cpp">
 			<Option target="Maze2"/>
 		</Unit>
-		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2/src/Maze.h">
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2/src/Cell.h">
 			<Option target="Maze2"/>
 		</Unit>
-		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2/src/Point.h">
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2/src/Maze.h">
 			<Option target="Maze2"/>
 		</Unit>
 		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk2-LinkedLists/Maze2/CMakeLists.txt">

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk3-StacksQueues/Maze3/main.cpp
+iostream
+-
+fstream
+-
+stack
+-
+src/Maze.h
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk3-StacksQueues/Maze3/src/Maze.h
+src/Cell.h
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk3-StacksQueues/Maze3/src/Cell.h
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk3-StacksQueues/Maze3/src/Cell.h
+iostream
+-
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk3-StacksQueues/Maze3/src/Maze.h
+Cell.h
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk3-StacksQueues/Maze3/src/Cell.h
+iostream
+-
+fstream
+-
+vector
+-
+

@@ -1,22 +1,22 @@
 /**
- *  Maze2/src Maze.h
+ *  Maze3/src Maze.h
  *  Author: Daniel Cender
- *  Date: 05/05/2019
- *  Description: This header implements a doubly linked list to store the maze tiles.
+ *  Date: 05/12/2019
+ *  Description: This header implements a 2-D array of doubly linked list to store the maze tiles.
  */
 #include "Cell.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
 using namespace std;
-
-#ifndef MAZE2_SRC_MAZE_H_
-#define MAZE2_SRC_MAZE_H_
+#ifndef MAZE3_SRC_MAZE_H_
+#define MAZE3_SRC_MAZE_H_
 
 class Maze {
  public:
   vector<Cell*> rows_array; // basic array is just too frustrating for this usage
   vector<Cell*> cols_array;
+  Cell *start, *finish;
 //  Maze() {
 //    start = finish = 0;
 //    rows = cols = 0;
@@ -84,9 +84,9 @@ class Maze {
 //          instantiater->top = rows_array[i - 1];
 //        }
 
-         if(cols_array.size() != cols) {
-           cols_array.push_back(instantiater);
-         }
+        if(cols_array.size() != cols) {
+          cols_array.push_back(instantiater);
+        }
 
         if(atCol != 0) { // isn't leftmost node
           cols_array[atCol]->left = cols_array[atCol - 1];
@@ -102,6 +102,10 @@ class Maze {
         nextNode->left = instantiater;
         instantiater->right = nextNode;
 
+        // your x's and y's
+        instantiater->x = atCol;
+        instantiater->y = i;
+
         instantiater = instantiater->next;
       }
 
@@ -116,25 +120,26 @@ class Maze {
       curr->type = Wall;
     }
 
-      // Set beginning and end blocks
+    // Set beginning and end blocks
     Cell *start = cols_array[startX];
     for(int i = 0; i < startY;i++) {
       start = start->bottom;
     }
     start->type = Begin;
+    this->start = start;
 
     Cell *end = cols_array[endX];
     for(int i = 0; i < endY; i++) {
-      start = start->bottom;
+      end = end->bottom;
     }
     end->type = End;
+    this->finish = end;
 
     cout << endl;
     f.close();
   }
  private:
   int rows, cols; // cols is x, rows is y
-  Cell *start, *finish;
 };
 
-#endif //MAZE2_SRC_MAZE_H_
+#endif //MAZE3_SRC_MAZE_H_

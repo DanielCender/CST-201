@@ -83,6 +83,12 @@
 		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk3-StacksQueues/Maze3/main.cpp">
 			<Option target="Maze3"/>
 		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk3-StacksQueues/Maze3/src/Cell.h">
+			<Option target="Maze3"/>
+		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk3-StacksQueues/Maze3/src/Maze.h">
+			<Option target="Maze3"/>
+		</Unit>
 		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk3-StacksQueues/Maze3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

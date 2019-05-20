@@ -12,25 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b319d52d-11db-4225-83a8-5d0334136542" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/CLC/.idea/CLC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/CLC/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/CLC/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/CLC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/CLC/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/CLC/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/CLC/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/CLC/src/HashMap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/CLC/src/HashMap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/.idea/Maze4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Cell.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Cell.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Maze.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Maze.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/functions.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/cmake-build-debug/CMakeFiles/Maze4.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/cmake-build-debug/CMakeFiles/Maze4.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/cmake-build-debug/Maze4" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/cmake-build-debug/Maze4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Cell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Cell.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Cell.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Cell.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Maze.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Maze.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Maze.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/src/Maze.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,12 +166,12 @@
       <updated>1557621946674</updated>
       <workItem from="1557621949093" duration="9756000" />
       <workItem from="1558331419883" duration="560000" />
-      <workItem from="1558332012554" duration="511000" />
+      <workItem from="1558332012554" duration="572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10827000" />
+    <option name="totallyTimeSpent" value="10888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />

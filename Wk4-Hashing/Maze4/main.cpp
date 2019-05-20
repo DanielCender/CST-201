@@ -7,6 +7,7 @@
 #include <iostream>
 #include <fstream>
 #include <stack>
+#include <queue>
 #include "src/Maze.h"
 #include "src/Cell.h"
 using namespace std;
@@ -89,7 +90,7 @@ void displayMaze(const Maze* maze) {
 
 enum Direction { Top = 0, Right = 1, Bottom = 2, Left = 3 };
 
-bool solveMaze(const Maze *maze) {
+bool solveMazeStack(const Maze *maze) {
   // Heavily drawing from this example here:
   // https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-using-stack/
   stack<Cell*> s;
@@ -168,6 +169,45 @@ bool solveMaze(const Maze *maze) {
   return false;
 }
 
+bool solveMazeQueue(const Maze *maze) {
+  queue<Cell*> q;
+  Direction dir;
+  int x, y;
+  Cell *temp;
+  int seen[maze->rows_array.size()][maze->cols_array.size()];
+  for(int i = 0; i < maze->rows_array.size(); i++) {
+    for(int o = 0; o < maze->cols_array.size(); o++) {
+      seen[i][o] = 1; // 1 is NOT SEEN
+    }
+  }
+
+  q.push(maze->start);
+
+  while(!q.empty()) { // While queue has items
+    temp = q.front(); // deque the first item
+    q.pop(); // remove first item
+
+    // Check if popped el is finish
+    if(maze->finish == temp) {
+      cout << "Successfully navigated maze!!!" << endl;
+      return true;
+    }
+
+    // Enque the directions of the item's neighbors, if not seen yet
+
+    if(temp->top && temp->top->type != Wall  && seen[temp->top->x][temp->top->y]) q.push(temp->top);
+    if(temp->right && temp->right->type != Wall  && seen[temp->right->x][temp->right->y]) q.push(temp->right);
+    if(temp->bottom && temp->bottom->type != Wall && seen[temp->bottom->x][temp->bottom->y]) q.push(temp->bottom);
+    if(temp->left && temp->left->type != Wall  && seen[temp->left->x][temp->left->y]) q.push(temp->left);
+
+    // Set the dequed item's "seen" bit to seen (0)
+    seen[temp->x][temp->y] = 0;
+
+  // I'm sure I'm missing a piece or two here
+  }
+  return false; // If no end is found
+}
+
 int main() {
 //  ifstream f;  // FOR DEBUGGING - Just displays file contents line per line
 //    readFile(f);
@@ -177,7 +217,9 @@ int main() {
 
   displayMaze(new_maze);
 
-  bool result = solveMaze(new_maze); // TODO
+//  bool result = solveMazeStack(new_maze); // TODO
+
+  bool result = solveMazeQueue(new_maze); // TODO
 
   return 0;
 }

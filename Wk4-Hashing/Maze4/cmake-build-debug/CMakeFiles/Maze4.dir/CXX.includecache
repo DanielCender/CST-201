@@ -13,6 +13,8 @@ fstream
 -
 stack
 -
+queue
+-
 src/Maze.h
 /Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk4-Hashing/Maze4/src/Maze.h
 src/Cell.h

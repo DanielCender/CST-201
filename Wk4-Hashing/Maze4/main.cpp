@@ -170,11 +170,15 @@ bool solveMazeStack(const Maze *maze) {
 }
 
 bool solveMazeQueue(const Maze *maze) {
-  queue<Cell*> q;
+  std::queue<Cell*> q;
   Direction dir;
   int x, y;
   Cell *temp;
-  int seen[maze->rows_array.size()][maze->cols_array.size()];
+  int col_size = maze->cols_array.size();
+  int row_size = maze->rows_array.size();
+
+  int seen[row_size][col_size];
+
   for(int i = 0; i < maze->rows_array.size(); i++) {
     for(int o = 0; o < maze->cols_array.size(); o++) {
       seen[i][o] = 1; // 1 is NOT SEEN
@@ -184,9 +188,10 @@ bool solveMazeQueue(const Maze *maze) {
   q.push(maze->start);
 
   while(!q.empty()) { // While queue has items
+    q.size();
     temp = q.front(); // deque the first item
     q.pop(); // remove first item
-
+    q.size();
     // Check if popped el is finish
     if(maze->finish == temp) {
       cout << "Successfully navigated maze!!!" << endl;

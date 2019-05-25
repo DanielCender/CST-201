@@ -1,6 +1,9 @@
-//
-// Created by Daniel Cender on 2019-05-20.
-//
+/**
+ *  Maze4/src Cell.h
+ *  Author: Daniel Cender
+ *  Date: 05/19/2019
+ *  Description: This cpp implements a doubly linked node to store a map tile.
+ */
 
 #include "Cell.h"
 #include <iostream>

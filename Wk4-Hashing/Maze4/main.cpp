@@ -171,6 +171,7 @@ bool solveMazeStack(const Maze *maze) {
 
 bool solveMazeQueue(const Maze *maze) {
   std::queue<Cell*> q;
+
   Direction dir;
   int x, y;
   Cell *temp;
@@ -188,10 +189,9 @@ bool solveMazeQueue(const Maze *maze) {
   q.push(maze->start);
 
   while(!q.empty()) { // While queue has items
-    q.size();
+    cout << "Queue Size: " << q.size() << endl;
     temp = q.front(); // deque the first item
     q.pop(); // remove first item
-    q.size();
     // Check if popped el is finish
     if(maze->finish == temp) {
       cout << "Successfully navigated maze!!!" << endl;

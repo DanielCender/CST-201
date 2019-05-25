@@ -11,7 +11,6 @@
 #include "Maze.h"
 using namespace std;
 
-
 Maze::Maze(int r, int c, Cell *s, Cell *f, Cell (*maze_array) []) {
   rows = r;
   cols = c;

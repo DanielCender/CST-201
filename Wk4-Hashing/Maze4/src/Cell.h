@@ -1,5 +1,5 @@
 /**
- *  Maze3/src Cell.h
+ *  Maze4/src Cell.h
  *  Author: Daniel Cender
  *  Date: 05/19/2019
  *  Description: This header implements a doubly linked node to store a map tile.

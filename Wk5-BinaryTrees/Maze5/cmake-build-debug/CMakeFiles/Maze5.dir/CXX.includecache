@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk5-BinaryTrees/Maze5/src/Cell.h
+iostream
+-
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk5-BinaryTrees/Maze5/src/Maze.cpp
+Cell.h
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk5-BinaryTrees/Maze5/src/Cell.h
+iostream
+-
+fstream
+-
+algorithm
+-
+queue
+-
+stack
+-
+vector
+-
+Maze.h
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk5-BinaryTrees/Maze5/src/Maze.h
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk5-BinaryTrees/Maze5/src/Maze.h
+Cell.h
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk5-BinaryTrees/Maze5/src/Cell.h
+iostream
+-
+fstream
+-
+vector
+-
+

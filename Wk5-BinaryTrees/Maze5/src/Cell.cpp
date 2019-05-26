@@ -18,6 +18,7 @@ Cell::Cell(Cell_Type c_t, int col_pos, int row_pos, Cell *t, Cell *r, Cell *b, C
   prev = next = 0;
   x = col_pos;
   y = row_pos;
+  mhDist = NULL;
 };
 
 

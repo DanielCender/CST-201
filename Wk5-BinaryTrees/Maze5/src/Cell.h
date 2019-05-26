@@ -5,6 +5,9 @@
  *  Description: This header implements a doubly linked node to store a map tile.
  */
 
+#include <iostream>
+using namespace std;
+
 #ifndef MAZE5_SRC_CELL_H_
 #define MAZE5_SRC_CELL_H_
 
@@ -16,6 +19,7 @@ class Cell {
   Cell_Type type;
   Cell *top, *right, *bottom, *left;
   Cell *prev, *next; // For storing in linked lists
+  float mhDist; // Manhatten distance from the end of the maze, for max-heap solving function
   int x, y;
   // No empty param constructor, since this one handles all cases
   // Receives type, position, and any side nodes, in CSS-style ordering (top, right, bottom, left)

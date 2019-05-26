@@ -23,6 +23,10 @@ class Maze {
   Maze(int r = 0, int c = 0, Cell *s = 0, Cell *f = 0, Cell (*maze_array) [] = 0);
   ~Maze();
   void readFile(char* path);
+  void display();
+  bool solveMazeStack(); // Solves maze using stack
+  bool solveMazeQueue(); // Solves maze using queue
+  bool solveMazeHeap();
  private:
   int rows, cols; // cols is x, rows is y
 };

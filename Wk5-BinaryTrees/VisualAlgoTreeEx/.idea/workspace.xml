@@ -12,19 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f97950b3-1c11-489d-87ea-e97af6f8a8db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../IndividualAssignment/.idea/IndividualAssignment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IndividualAssignment/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IndividualAssignment/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IndividualAssignment/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wk4-Hashing/Maze4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IndividualAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IndividualAssignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IndividualAssignment/cmake-build-debug/IndividualAssignment" beforeDir="false" afterPath="$PROJECT_DIR$/../IndividualAssignment/cmake-build-debug/IndividualAssignment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IndividualAssignment/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../IndividualAssignment/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Maze5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze5/cmake-build-debug/CMakeFiles/Maze5.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze5/cmake-build-debug/CMakeFiles/Maze5.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze5/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze5/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze5/src/Cell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze5/src/Cell.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze5/src/Cell.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze5/src/Cell.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze5/src/Maze.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze5/src/Maze.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze5/src/Maze.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze5/src/Maze.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -139,7 +130,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

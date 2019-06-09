@@ -37,7 +37,7 @@ void Maze::readFile(char *path) {
 
   char eatChar;
   f >> cols >> eatChar >> rows >> eatChar; // Read first values
-
+//  f >> rows >> eatChar >> cols >> eatChar;
   cout << "x size: " << cols << endl;
   cout << "y size: " << rows << endl;
 
@@ -379,8 +379,8 @@ bool Maze::solveMazeHeap() {
   int col_size = maze->cols_array.size();
   int row_size = maze->rows_array.size();
 
-  int seen[row_size][col_size];
-
+//  int seen[row_size][col_size];
+int seen[col_size][row_size];
   for(int i = 0; i < row_size; i++) {
     for(int o = 0; o < col_size; o++) {
       seen[i][o] = 1; // 1 is NOT SEEN

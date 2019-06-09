@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Cell.o: src/Cell.cpp.o
+
+.PHONY : src/Cell.o
+
+# target to build an object file
+src/Cell.cpp.o:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/Cell.cpp.o
+.PHONY : src/Cell.cpp.o
+
+src/Cell.i: src/Cell.cpp.i
+
+.PHONY : src/Cell.i
+
+# target to preprocess a source file
+src/Cell.cpp.i:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/Cell.cpp.i
+.PHONY : src/Cell.cpp.i
+
+src/Cell.s: src/Cell.cpp.s
+
+.PHONY : src/Cell.s
+
+# target to generate assembly for a file
+src/Cell.cpp.s:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/Cell.cpp.s
+.PHONY : src/Cell.cpp.s
+
+src/Maze.o: src/Maze.cpp.o
+
+.PHONY : src/Maze.o
+
+# target to build an object file
+src/Maze.cpp.o:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/Maze.cpp.o
+.PHONY : src/Maze.cpp.o
+
+src/Maze.i: src/Maze.cpp.i
+
+.PHONY : src/Maze.i
+
+# target to preprocess a source file
+src/Maze.cpp.i:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/Maze.cpp.i
+.PHONY : src/Maze.cpp.i
+
+src/Maze.s: src/Maze.cpp.s
+
+.PHONY : src/Maze.s
+
+# target to generate assembly for a file
+src/Maze.cpp.s:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/Maze.cpp.s
+.PHONY : src/Maze.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Cell.o"
+	@echo "... src/Cell.i"
+	@echo "... src/Cell.s"
+	@echo "... src/Maze.o"
+	@echo "... src/Maze.i"
+	@echo "... src/Maze.s"
 .PHONY : help
 
 

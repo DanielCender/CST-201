@@ -83,6 +83,18 @@
 		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/main.cpp">
 			<Option target="Maze6"/>
 		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/src/Cell.cpp">
+			<Option target="Maze6"/>
+		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/src/Cell.h">
+			<Option target="Maze6"/>
+		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/src/Maze.cpp">
+			<Option target="Maze6"/>
+		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/src/Maze.h">
+			<Option target="Maze6"/>
+		</Unit>
 		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

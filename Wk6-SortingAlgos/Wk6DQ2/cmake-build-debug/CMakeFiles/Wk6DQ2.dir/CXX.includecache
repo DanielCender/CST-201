@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk6-SortingAlgos/Wk6DQ2/main.cpp
+iostream
+-
+math.h
+-
+map
+-
+set
+-
+

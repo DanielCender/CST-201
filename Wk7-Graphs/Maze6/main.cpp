@@ -9,8 +9,10 @@
 #include <fstream>
 #include <stack>
 #include <queue>
+#include <vector>
 #include "src/Maze.h"
 #include "src/Cell.h"
+#include "src/Graph.h"
 
 using namespace std;
 
@@ -32,17 +34,16 @@ int main() {
 //  ifstream f;  // FOR DEBUGGING - Just displays file contents line per line
 //    readFile(f);
 
-  Maze *new_maze = new Maze();
+//  Maze *new_maze = new Maze();
+Graph *new_maze = new Graph();
   new_maze->readFile("sample.txt");
 
-  new_maze->display();
+//  new_maze->display();
 
 //  bool result = new_maze->solveMazeStack();
-
-//  bool result = solveMazeQueue(new_maze);
 //  bool result = new_maze->solveMazeQueue();
-  bool result = new_maze->solveMazeHeap();
-  new_maze->display();
+//  bool result = new_maze->solveMazeHeap();
+//  new_maze->display();
 
   return 0;
 }

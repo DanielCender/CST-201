@@ -89,6 +89,18 @@
 		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/src/Cell.h">
 			<Option target="Maze6"/>
 		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/src/GNode.cpp">
+			<Option target="Maze6"/>
+		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/src/GNode.h">
+			<Option target="Maze6"/>
+		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/src/Graph.cpp">
+			<Option target="Maze6"/>
+		</Unit>
+		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/src/Graph.h">
+			<Option target="Maze6"/>
+		</Unit>
 		<Unit filename="/Users/danielcender/Documents/GCU/2019/CST-201/CST-201/Wk7-Graphs/Maze6/src/Maze.cpp">
 			<Option target="Maze6"/>
 		</Unit>

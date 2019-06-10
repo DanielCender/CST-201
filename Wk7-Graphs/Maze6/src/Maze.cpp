@@ -5,7 +5,9 @@
  *  Description: This cpp file implements a 2-D array of doubly linked list to store the maze tiles.
  */
 
+
 #include "Cell.h"
+#include "Graph.h"
 #include <iostream>
 #include <fstream>
 #include <algorithm>
@@ -296,7 +298,7 @@ bool Maze::solveMazeQueue() {
   int col_size = maze->cols_array.size();
   int row_size = maze->rows_array.size();
 
-  int seen[row_size][col_size];
+  int seen[col_size][row_size];
 
   for(int i = 0; i < maze->rows_array.size(); i++) {
     for(int o = 0; o < maze->cols_array.size(); o++) {
@@ -379,7 +381,7 @@ bool Maze::solveMazeHeap() {
   int col_size = maze->cols_array.size();
   int row_size = maze->rows_array.size();
 
-//  int seen[row_size][col_size];
+//  int seen[row_size][col_size]; // Don't do this, this breaks everything!
   int seen[col_size][row_size];
   for(int i = 0; i < row_size; i++) {
     for(int o = 0; o < col_size; o++) {
@@ -459,4 +461,12 @@ bool Maze::solveMazeHeap() {
     cout << "******************" << endl;
   }
   return false; // If no end is found
+}
+
+
+// Method that converts this object to a graph format - matrix and adjacency list
+Graph Maze::convertToGraph() {
+  // Create a matrix of nodes
+  // For all rows and
+
 }

@@ -177,6 +177,60 @@ src/Cell.cpp.s:
 	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/Cell.cpp.s
 .PHONY : src/Cell.cpp.s
 
+src/GNode.o: src/GNode.cpp.o
+
+.PHONY : src/GNode.o
+
+# target to build an object file
+src/GNode.cpp.o:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/GNode.cpp.o
+.PHONY : src/GNode.cpp.o
+
+src/GNode.i: src/GNode.cpp.i
+
+.PHONY : src/GNode.i
+
+# target to preprocess a source file
+src/GNode.cpp.i:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/GNode.cpp.i
+.PHONY : src/GNode.cpp.i
+
+src/GNode.s: src/GNode.cpp.s
+
+.PHONY : src/GNode.s
+
+# target to generate assembly for a file
+src/GNode.cpp.s:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/GNode.cpp.s
+.PHONY : src/GNode.cpp.s
+
+src/Graph.o: src/Graph.cpp.o
+
+.PHONY : src/Graph.o
+
+# target to build an object file
+src/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/Graph.cpp.o
+.PHONY : src/Graph.cpp.o
+
+src/Graph.i: src/Graph.cpp.i
+
+.PHONY : src/Graph.i
+
+# target to preprocess a source file
+src/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/Graph.cpp.i
+.PHONY : src/Graph.cpp.i
+
+src/Graph.s: src/Graph.cpp.s
+
+.PHONY : src/Graph.s
+
+# target to generate assembly for a file
+src/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/Maze6.dir/build.make CMakeFiles/Maze6.dir/src/Graph.cpp.s
+.PHONY : src/Graph.cpp.s
+
 src/Maze.o: src/Maze.cpp.o
 
 .PHONY : src/Maze.o
@@ -219,6 +273,12 @@ help:
 	@echo "... src/Cell.o"
 	@echo "... src/Cell.i"
 	@echo "... src/Cell.s"
+	@echo "... src/GNode.o"
+	@echo "... src/GNode.i"
+	@echo "... src/GNode.s"
+	@echo "... src/Graph.o"
+	@echo "... src/Graph.i"
+	@echo "... src/Graph.s"
 	@echo "... src/Maze.o"
 	@echo "... src/Maze.i"
 	@echo "... src/Maze.s"

@@ -12,25 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9b6d494-c61e-4b7d-92c9-ac4f0c50f131" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Maze7/.idea/Maze7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/cmake-build-debug/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/src/GNode.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/src/GNode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/src/Graph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maze7/src/Graph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Maze6" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Maze6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/GNode.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze7/cmake-build-debug/CMakeFiles/Maze7.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze7/cmake-build-debug/CMakeFiles/Maze7.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze7/src/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze7/src/Graph.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state relative-caret-position="499">
+              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding>
                 <element signature="e#173#192#0" expanded="true" />
               </folding>
@@ -105,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="230" column="26" selection-start-line="230" selection-start-column="26" selection-end-line="230" selection-end-column="26" />
+            <state relative-caret-position="397">
+              <caret line="238" column="3" lean-forward="true" selection-start-line="238" selection-start-column="3" selection-end-line="238" selection-end-column="3" />
               <folding>
                 <element signature="e#178#196#0" expanded="true" />
               </folding>
@@ -160,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/GNode.cpp" />
         <option value="$PROJECT_DIR$/src/GNode.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/src/Graph.cpp" />
         <option value="$PROJECT_DIR$/src/Graph.h" />
+        <option value="$PROJECT_DIR$/src/Graph.cpp" />
       </list>
     </option>
   </component>
@@ -172,7 +157,7 @@
     <option name="x" value="667" />
     <option name="y" value="-1421" />
     <option name="width" value="1334" />
-    <option name="height" value="830" />
+    <option name="height" value="1101" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -243,25 +228,25 @@
       <updated>1559870643248</updated>
       <workItem from="1559870647366" duration="127000" />
       <workItem from="1560048853240" duration="14429000" />
-      <workItem from="1560133993459" duration="9793000" />
+      <workItem from="1560133993459" duration="10814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24349000" />
+    <option name="totallyTimeSpent" value="25370000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="667" y="-1421" width="1334" height="830" extended-state="0" />
+    <frame x="667" y="-1421" width="1334" height="1101" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21981424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21981424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3271719" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3270565" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.37804878" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.2765114" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -292,6 +277,66 @@
           <url>file://$PROJECT_DIR$/main.cpp</url>
           <line>46</line>
           <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>256</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>241</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>240</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>224</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>226</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>228</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>249</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>243</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>244</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>245</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
+          <line>246</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -399,16 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding>
-            <element signature="e#173#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -419,10 +454,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <folding>
+            <element signature="e#173#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="230" column="26" selection-start-line="230" selection-start-column="26" selection-end-line="230" selection-end-column="26" />
+        <state relative-caret-position="397">
+          <caret line="238" column="3" lean-forward="true" selection-start-line="238" selection-start-column="3" selection-end-line="238" selection-end-column="3" />
           <folding>
             <element signature="e#178#196#0" expanded="true" />
           </folding>

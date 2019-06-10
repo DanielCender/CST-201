@@ -93,14 +93,19 @@ void Graph::readFile(char *path) {
           cout << "";
         }
         // bottom
-        if(i < rows && mazeArr[i+1][o] && mazeArr[i+1][o] > 0) {
-          tmp->next = new GNode(o, i+1);
-          tmp = tmp->next;
+        if(i + 1 < rows) {
+          if(mazeArr[i+1][o] && mazeArr[i+1][o] > 0) {
+            tmp->next = new GNode(o, i+1);
+            tmp = tmp->next;
+          }
         }
+
         // right
-        if(o < cols && mazeArr[i][o+1] && mazeArr[i][o+1] > 0) {
-          tmp->next = new GNode(o+1, i);
-          tmp = tmp->next;
+        if(o + 1 < cols) {
+          if (mazeArr[i][o + 1] && mazeArr[i][o + 1] > 0) {
+            tmp->next = new GNode(o + 1, i);
+            tmp = tmp->next;
+          }
         }
         // top
         if(i > 0 && mazeArr[i - 1][o] && mazeArr[i - 1][o] > 0) {
@@ -126,6 +131,7 @@ void Graph::readFile(char *path) {
   }
 
   this->maze = maze;
+  this->mazeArr = mazeArr;
   this->start = new GNode(startX, startY);
   this->finish = new GNode(endX, endY);
   this->col_size = cols;
@@ -139,7 +145,7 @@ void Graph::readFile(char *path) {
 void Graph::display() {
   Graph *maze = this;
   int begin = 0;
-  int end = maze->maze.size();
+  int end = maze->mazeArr.size();
   int current_row_node;
   for (; begin < end; begin++) {
     // iterating through rows currently
@@ -226,6 +232,8 @@ bool Graph::solveMazeWithBFS() {
     cout << "Dequeued Item: " << tmp->x << "," << tmp->y << endl;
     queue.pop_front();
 
+    this->display(); // print to console to show path
+
     // Check for end case here
     if(tmp->x == this->finish->x && tmp->y == this->finish->y) { // Finish is found
       cout << "Path to finish has been found!" << endl;
@@ -233,6 +241,13 @@ bool Graph::solveMazeWithBFS() {
     }
 
     // Get all neighbors and enqueue if not yet visited
+    // Find item in maze vector
+    int i = 0;
+    for(GNode *elem = this->maze[i]; i < this->maze.size(); i++, elem = this->maze[i]) { // Search for list node matching neighbor
+      if(elem->x == tmp->x && elem->y == tmp->y) {
+        tmp = elem;
+      }
+    }
     // Then mark as visited and enqueue
     for(GNode *i = tmp; i->next != NULL; i = i->next) {
       if(this->mazeArr[i->y][i->x] != 4) { // If not already traversed, AKA 4
@@ -240,9 +255,10 @@ bool Graph::solveMazeWithBFS() {
         queue.push_back(i);
     }
   }
-    cout << "Path not found for graph maze!" << endl;
-    return false;
   }
+  cout << "Path not found for graph maze!" << endl;
+  return false;
+
 }
 
 

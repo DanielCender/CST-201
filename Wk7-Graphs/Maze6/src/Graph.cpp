@@ -93,14 +93,19 @@ void Graph::readFile(char *path) {
           cout << "";
         }
         // bottom
-        if(i < rows && mazeArr[i+1][o] && mazeArr[i+1][o] > 0) {
-          tmp->next = new GNode(o, i+1);
-          tmp = tmp->next;
+        if(i + 1 < rows) {
+          if(mazeArr[i+1][o] && mazeArr[i+1][o] > 0) {
+            tmp->next = new GNode(o, i+1);
+            tmp = tmp->next;
+          }
         }
+
         // right
-        if(o < cols && mazeArr[i][o+1] && mazeArr[i][o+1] > 0) {
-          tmp->next = new GNode(o+1, i);
-          tmp = tmp->next;
+        if(o + 1 < cols) {
+          if (mazeArr[i][o + 1] && mazeArr[i][o + 1] > 0) {
+            tmp->next = new GNode(o + 1, i);
+            tmp = tmp->next;
+          }
         }
         // top
         if(i > 0 && mazeArr[i - 1][o] && mazeArr[i - 1][o] > 0) {
@@ -118,14 +123,15 @@ void Graph::readFile(char *path) {
 
   for(int i = 0; i < maze.size(); i++) {
     cout << " ";
-      cout << "List [" << i << "]: ";
-      for(GNode *t = maze[i]; t->next != NULL; t = t->next) {
-        cout << " -> " << t->x << "," << t->y;
-      }
-      cout << endl;
+    cout << "List [" << i << "]: ";
+    for(GNode *t = maze[i]; t->next != NULL; t = t->next) {
+      cout << " -> " << t->x << "," << t->y;
+    }
+    cout << endl;
   }
 
   this->maze = maze;
+  this->mazeArr = mazeArr;
   this->start = new GNode(startX, startY);
   this->finish = new GNode(endX, endY);
   this->col_size = cols;
@@ -139,7 +145,7 @@ void Graph::readFile(char *path) {
 void Graph::display() {
   Graph *maze = this;
   int begin = 0;
-  int end = maze->maze.size();
+  int end = maze->mazeArr.size();
   int current_row_node;
   for (; begin < end; begin++) {
     // iterating through rows currently
@@ -216,7 +222,7 @@ void Graph::DFS(GNode *n) {
 //  visited[n->x][n->y] = true;
 
   // Set to Traversed for sake of displaying path traversal to console
-  if(n->x == this->start->x && n->y == this->start->y) this->mazeArr[n->x][n->y] = 4; // AKA, traversed
+  this->mazeArr[n->x][n->y] = 4; // AKA, traversed
 
   this->display(); // print to console to show path
 
@@ -225,8 +231,14 @@ void Graph::DFS(GNode *n) {
     cout << "Successfully navigated maze!!!" << endl;
   }
 
+  GNode *iter;
+  for(auto & elem : this->maze) { // Search for list node matching neighbor
+    if(elem->x == n->x && elem->y == n->y) {
+      iter = elem;
+    }
+  }
   // iterate over list items
-  for(GNode *i = n; i->next != NULL; i = i->next) {
+  for(GNode *i = iter; i->next != NULL; i = i->next) {
     if(this->mazeArr[i->x][i->y] != 4) { // has not been visited before, or !visited[i->x][i->y] version
       // Find item in maze vector
       GNode *tmp;

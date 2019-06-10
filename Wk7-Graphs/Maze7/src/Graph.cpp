@@ -1,5 +1,5 @@
 /**
- *  Maze6/src Graph.cpp
+ *  Maze7/src Graph.cpp
  *  Author: Daniel Cender
  *  Date: 06/9/2019
  *  Description: This source file implements the methods and structures outlined for a Graph maze.
@@ -118,11 +118,11 @@ void Graph::readFile(char *path) {
 
   for(int i = 0; i < maze.size(); i++) {
     cout << " ";
-      cout << "List [" << i << "]: ";
-      for(GNode *t = maze[i]; t->next != NULL; t = t->next) {
-        cout << " -> " << t->x << "," << t->y;
-      }
-      cout << endl;
+    cout << "List [" << i << "]: ";
+    for(GNode *t = maze[i]; t->next != NULL; t = t->next) {
+      cout << " -> " << t->x << "," << t->y;
+    }
+    cout << endl;
   }
 
   this->maze = maze;
@@ -206,8 +206,43 @@ void Graph::display() {
 
 
 
+// ****** Searches for a path to the finish via breadth-first algorithm *****
 bool Graph::solveMazeWithBFS() {
+  list<GNode*> queue;
+  GNode *tmp = this->start;
+  // Set start as visited
+  this->mazeArr[tmp->y][tmp->x] = 4;
 
+  // Check for end case here, just in case of edge scenario where (start == finish)
+  if(tmp->x == this->finish->x && tmp->y == this->finish->y) { // Finish is found
+    cout << "Path to finish has been found!" << endl;
+    return true;
+  }
+
+  queue.push_back(tmp);
+
+  while(!queue.empty()) {
+    tmp = queue.front();
+    cout << "Dequeued Item: " << tmp->x << "," << tmp->y << endl;
+    queue.pop_front();
+
+    // Check for end case here
+    if(tmp->x == this->finish->x && tmp->y == this->finish->y) { // Finish is found
+      cout << "Path to finish has been found!" << endl;
+      return true;
+    }
+
+    // Get all neighbors and enqueue if not yet visited
+    // Then mark as visited and enqueue
+    for(GNode *i = tmp; i->next != NULL; i = i->next) {
+      if(this->mazeArr[i->y][i->x] != 4) { // If not already traversed, AKA 4
+        this->mazeArr[i->y][i->x] = 4;
+        queue.push_back(i);
+    }
+  }
+    cout << "Path not found for graph maze!" << endl;
+    return false;
+  }
 }
 
 

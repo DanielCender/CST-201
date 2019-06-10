@@ -20,14 +20,16 @@ using namespace std;
 class Graph {
  public:
   // Choosing to represent the list as a vector of nodes
-  vector<GNode> *adjList;
   ~Graph();
   void readFile(char *path);
+  void display();
   bool solveMazeWithDFS(); // TODO
   bool solveMazeWithBFS(); // TODO
  private:
   GNode *start, *finish;
+  int col_size, row_size;
   vector<GNode*> maze;
+  vector<vector<int>> mazeArr;
 };
 
 #endif //MAZE6_SRC_GRAPH_H_

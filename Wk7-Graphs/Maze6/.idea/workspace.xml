@@ -12,10 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9b6d494-c61e-4b7d-92c9-ac4f0c50f131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Maze7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze7/cmake-build-debug/CMakeFiles/Maze7.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze7/cmake-build-debug/CMakeFiles/Maze7.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze7/src/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze7/src/Graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze7/cmake-build-debug/Maze7" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze7/cmake-build-debug/Maze7" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state relative-caret-position="529">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#173#192#0" expanded="true" />
               </folding>
@@ -90,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="238" column="3" lean-forward="true" selection-start-line="238" selection-start-column="3" selection-end-line="238" selection-end-column="3" />
+            <state relative-caret-position="733">
+              <caret line="248" column="2" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="2" />
               <folding>
                 <element signature="e#178#196#0" expanded="true" />
               </folding>
@@ -228,12 +226,12 @@
       <updated>1559870643248</updated>
       <workItem from="1559870647366" duration="127000" />
       <workItem from="1560048853240" duration="14429000" />
-      <workItem from="1560133993459" duration="10814000" />
+      <workItem from="1560133993459" duration="12719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25370000" />
+    <option name="totallyTimeSpent" value="27275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="667" y="-1421" width="1334" height="1101" extended-state="0" />
@@ -246,7 +244,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.2765114" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.2765114" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -290,28 +288,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
-          <line>241</line>
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
-          <line>240</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
-          <line>224</line>
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
           <line>226</line>
           <option name="timeStamp" value="115" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
-          <line>228</line>
-          <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
@@ -320,23 +298,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
-          <line>243</line>
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
-          <line>244</line>
-          <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
-          <line>245</line>
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Graph.cpp</url>
-          <line>246</line>
-          <option name="timeStamp" value="121" />
+          <line>230</line>
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -456,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="529">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#173#192#0" expanded="true" />
           </folding>
@@ -466,8 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="238" column="3" lean-forward="true" selection-start-line="238" selection-start-column="3" selection-end-line="238" selection-end-column="3" />
+        <state relative-caret-position="733">
+          <caret line="248" column="2" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="2" />
           <folding>
             <element signature="e#178#196#0" expanded="true" />
           </folding>

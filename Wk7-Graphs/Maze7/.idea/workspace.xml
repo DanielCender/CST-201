@@ -13,10 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c140ed2c-7cd2-42dc-98c9-8a9753dffecc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Maze6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze6/cmake-build-debug/CMakeFiles/Maze6.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze6/cmake-build-debug/CMakeFiles/Maze6.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze6/cmake-build-debug/Maze6" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze6/cmake-build-debug/Maze6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maze6/src/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze6/src/Graph.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +32,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="382">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               <folding>
                 <element signature="e#173#192#0" expanded="true" />
               </folding>
@@ -48,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="124">
+              <caret line="235" lean-forward="true" selection-start-line="235" selection-end-line="235" />
               <folding>
                 <element signature="e#178#196#0" expanded="true" />
               </folding>
@@ -203,12 +199,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560140415739</updated>
-      <workItem from="1560140419799" duration="3675000" />
+      <workItem from="1560140419799" duration="5032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3675000" />
+    <option name="totallyTimeSpent" value="5032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-332" y="-1013" width="1124" height="794" extended-state="0" />
@@ -226,7 +222,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3988604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -352,22 +348,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="124">
+          <caret line="235" lean-forward="true" selection-start-line="235" selection-end-line="235" />
           <folding>
-            <element signature="e#173#192#0" expanded="true" />
+            <element signature="e#178#196#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="382">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
-            <element signature="e#178#196#0" expanded="true" />
+            <element signature="e#173#192#0" expanded="true" />
           </folding>
         </state>
       </provider>
